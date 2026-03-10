@@ -7,14 +7,12 @@ import { Calendar } from "./ui/calendar";
 import {
   Popover,
   PopoverContent,
-  PopoverDescription,
-  PopoverHeader,
-  PopoverTitle,
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { Button } from "./ui/button";
 import { CalendarIcon } from "lucide-react";
 import { format } from "date-fns";
+
 
 const TodoList = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
