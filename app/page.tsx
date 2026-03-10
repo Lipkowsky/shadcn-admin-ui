@@ -1,7 +1,8 @@
 import { AppAreaChart } from "@/components/AppAreaChart";
 import AppBarChart from "@/components/AppBarChart";
 import { AppPieChart } from "@/components/AppPieChart";
-import { CardList } from "@/components/CardList";
+import CardList from "@/components/CardList";
+
 import TodoList from "@/components/TodoList";
 
 export default function Homepage() {
@@ -24,7 +25,7 @@ export default function Homepage() {
       </div>
       <div className="bg-primary-foreground p-4 rounded-lg">
         {" "}
-        <CardList title="Poupular Content" />
+        <CardList title="Popular Products" />
       </div>
     </div>
   );
